@@ -44,5 +44,10 @@ namespace MauiApp1
                 Todos.Remove(todoItem);
             }
         }
+
+        private async void OnNavigateToWeatherPage(object sender, EventArgs e)
+        {
+            await Shell.Current.GoToAsync("//MainPage");
+        }
     }
 }

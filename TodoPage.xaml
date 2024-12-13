@@ -65,5 +65,13 @@
                 </DataTemplate>
             </CollectionView.ItemTemplate>
         </CollectionView>
+
+        <!-- Back to Weather Button -->
+        <Button Text="Back to Weather" 
+                Clicked="OnNavigateToWeatherPage"
+                BackgroundColor="Blue" 
+                TextColor="White"
+                VerticalOptions="End" 
+                Margin="10" />
     </StackLayout>
 </ContentPage>
